@@ -1,5 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+// Prevent Font Awesome from adding its CSS since we did it manually above
+config.autoAddCss = false;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
