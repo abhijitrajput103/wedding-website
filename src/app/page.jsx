@@ -266,8 +266,18 @@ export default function Home() {
       <footer className="bg-white text-rose-400 py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center md:text-left">
-              <h3 className="text-2xl text-rose-600 font-bold mb-4">Contact Us</h3>
+            <div className="text-center">
+              <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
+              <p className="mb-4">
+                With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives. As we take
+                our first steps together on the beautiful journey of marriage, your presence would mean the world to us. Join us in celebrating
+                not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
+              </p>
+
+            </div>
+
+            <div className="text-center md:text-right">
+              <h3 className="text-2xl font-bold mb-4 text-rose-600 ">Warm Regards</h3>
               <p className="mb-2">
                 Devendra Singh :
                 <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
@@ -288,30 +298,6 @@ export default function Home() {
                 <br />
                 Dist : Gopalganj
               </p>
-            </div>
-
-            <div className="text-center">
-              <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
-              <p className="mb-4">
-                With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives. As we take
-                our first steps together on the beautiful journey of marriage, your presence would mean the world to us. Join us in celebrating
-                not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
-              </p>
-
-            </div>
-
-            <div className="text-center md:text-right">
-              <h3 className="text-2xl font-bold mb-4 text-rose-600 ">Warm Regards</h3>
-              <ul className="mb-4 list-inside">
-                <li> <strong> Devendra Singh </strong></li>
-                <li>Rahul Kumar Singh</li>
-                <li>Rohit Kumar Singh</li>
-                <li>Ankit Kumar Singh</li>
-                <li>Anurag Singh</li>
-                <li>Abhay Singh</li>
-                <li>Abhijit & Atul </li>
-                <li>Bholu, Shanu, Ashwani, Kanha, Agastya</li>
-              </ul>
             </div>
           </div>
 
