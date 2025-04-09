@@ -264,77 +264,77 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-white text-rose-400 py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
-              <p className="mb-4">
-                With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives. As we take
-                our first steps together on the beautiful journey of marriage, your presence would mean the world to us. Join us in celebrating
-                not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
-              </p>
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
+      {/* Left Column: Message */}
+      <div className="md:col-span-3 text-center md:text-left">
+        <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
+        <p className="mb-4">
+          With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives.
+          As we take our first steps together on the beautiful journey of marriage, your presence would mean the world to us.
+          Join us in celebrating not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
+        </p>
+      </div>
 
-            </div>
+      {/* Right Column: Contact */}
+      <div className="md:col-span-3 text-center md:text-right">
+        <h3 className="text-2xl font-bold mb-4 text-rose-600">Warm Regards</h3>
+        <p className="mb-2">
+          Devendra Singh :
+          <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
+            9939799729
+          </a>
+        </p>
+        <p className="mb-2">
+          Rohit Singh :
+          <a href="tel:9650377118" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
+            9650377118
+          </a>
+        </p>
+        <p className="mb-2">
+          Village: Chhota Badheya<br />
+          Post: Barauli – 81405<br />
+          District: Gopalganj
+        </p>
+      </div>
+    </div>
 
-            <div className="text-center md:text-right">
-              <h3 className="text-2xl font-bold mb-4 text-rose-600 ">Warm Regards</h3>
-              <p className="mb-2">
-                Devendra Singh :
-                <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-                  9939799729
-                </a>
-              </p>
+    {/* Footer Bottom */}
+    <div className="mt-12 text-center">
+      <p className="text-gray-400">&copy; 2025 Abhijit Kumar Singh. All rights reserved.</p>
+      <div className="flex justify-center space-x-4 mt-4">
+        <a
+          href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq"
+          className="cursor-pointer"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram text-2xl transition-transform duration-200 hover:scale-110"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abhijit-kumar-b73512332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          className="cursor-pointer"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin text-blue-400 text-2xl transition-transform duration-200 hover:scale-110"></i>
+        </a>
+        <a
+          href="https://github.com/abhijitrajput103"
+          className="cursor-pointer"
+          aria-label="Github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github text-gray-800 text-2xl transition-transform duration-200 hover:scale-110"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 
-              <p className="mb-2">
-                Rohit Singh :
-                <a href="tel:9650377118" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-                  9650377118
-                </a>
-              </p>
-              <p className="b-2">
-                Vill : Chhota Badheya
-                <br />
-                Post : Barauli,81405
-                <br />
-                Dist : Gopalganj
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-12 text-center">
-            <p className="text-gray-400">
-              &copy; 2025 Abhijit Kumar Singh. All rights reserved.
-            </p>
-            <div className="flex justify-center space-x-4">
-              <a
-                href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq"
-                className="cursor-pointer"
-                aria-label="Instagram"
-                target='_blank'
-              >
-                <i className="fab fa-instagram text-2xl transition-transform duration-200 hover:scale-110"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/abhijit-kumar-b73512332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                className="  cursor-pointer"
-                aria-label="Linkdin"
-                target='_blank'
-              >
-                <i className="fab fa-linkedin text-blue-400 text-2xl transition-transform duration-200 hover:scale-110">
-                </i>
-              </a>
-              <a
-                href="https://github.com/abhijitrajput103"
-                className="cursor-pointer"
-                aria-label="Github"
-                target='_blank'
-              >
-                <i className="fab fa-github text-gray-800 text-2xl transition-transform duration-200 hover:scale-110"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer >
 
     </>
   );
