@@ -207,7 +207,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://www.google.com/maps?q=Barauli,+Gopalganj,+Bihar+841405"
+                  href="https://maps.app.goo.gl/9uMpcCGdtvbtqbscA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center bg-rose-500 text-white px-4 py-2 rounded-md text-sm hover:bg-rose-600 transition-all duration-300 cursor-pointer whitespace-nowrap"
@@ -228,7 +228,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://www.google.com/maps?q=Barauli,+Gopalganj,+Bihar+841405"
+                  href="https://maps.app.goo.gl/9uMpcCGdtvbtqbscA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center bg-rose-500 text-white px-4 py-2 rounded-md text-sm hover:bg-rose-600 transition-all duration-300 cursor-pointer whitespace-nowrap"
@@ -293,13 +293,17 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
               <p className="mb-4">
-                With love in our hearts and joy in our souls, we invite you to join us as we begin our journey together as husband and wife.
+                With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives. As we take
+                our first steps together on the beautiful journey of marriage, your presence would mean the world to us. Join us in celebrating
+                not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
               </p>
+
             </div>
 
             <div className="text-center md:text-right">
               <h3 className="text-2xl font-bold mb-4 text-rose-600 ">Warm Regards</h3>
               <ul className="mb-4 list-inside">
+                <li> <strong> Devendra Singh </strong></li>
                 <li>Rahul Kumar Singh</li>
                 <li>Rohit Kumar Singh</li>
                 <li>Ankit Kumar Singh</li>
