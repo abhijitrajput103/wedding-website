@@ -286,12 +286,6 @@ export default function Home() {
           </a>
         </p>
         <p className="mb-2">
-          Rohit Singh :
-          <a href="tel:9650377118" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-            9650377118
-          </a>
-        </p>
-        <p className="mb-2">
           Village: Chhota Badheya<br />
           Post: Barauli – 81405<br />
           District: Gopalganj
