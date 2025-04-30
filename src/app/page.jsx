@@ -39,19 +39,13 @@ export default function Home() {
       <Header />
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center pt-24 bg-cover bg-center"
+        className="min-h-screen flex items-center justify-center pt-24 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/mohit-anu.jpg')" }}
       >
-        <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-rose-600 mb-4">
+        <div className="absolute bottom-0 left-0 right-0 text-center pb-10 md:pb-20">
+          <h1 className="text-5xl md:text-7xl font-serif font-bold text-rose-600 mb-0.5">
             Mohit & Anushka
           </h1>
-          <p className="text-xl md:text-2xl text-rose-500 font-bold tracking-widest mb-4">
-            APRIL 20, 2025
-          </p>
-          <p className="text-lg md:text-xl text-rose-400 font-bold italic">
-            We're getting married!
-          </p>
         </div>
       </section>
 
@@ -177,12 +171,31 @@ export default function Home() {
       {/* Gallery Section */}
       <section className="bg-gray-100 py-12" id="gallery">
         <div className="container mx-auto p-4">
-          <h2 className="text-3xl text-gray-700 font-serif mb-4">
-            Memories
-          </h2>
-          <p className="text-gray-600 mb-8">
-            To be Updated Soon
-          </p>
+          <section id="memories">
+            <h2 className="text-4xl text-red-500 text-center font-bold mb-8">Our Memories</h2>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 photos">
+              <img src="/images/ma.jpg" alt="Wedding ceremony with family" />
+              <img src="/images/ma2.jpg" alt="Bride wearing traditional attire" />
+              <img src="/images/varmala.jpg" alt="Exchange of wedding garlands" />
+              <img src="/images/sindur.jpg" alt="Application of sindur during wedding" />
+              <img src="/images/abh.jpg" alt="Post-wedding celebration moments" />
+              <img src="/images/fm.jpg" alt="Family gathering after the wedding" />
+              <img src="/images/fm2.jpg" alt="Wedding reception dinner" />
+              <img src="/images/fm3.jpg" alt="Group photo with friends and family" />
+            </div>
+
+            <div className="text-center mt-8">
+              <a
+                href="https://t.me/+d8wrfx0avssyOTQ1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-rose-500 inline-block text-white px-4 py-2 rounded-md text-sm hover:bg-rose-600 transition-all duration-300 cursor-pointer whitespace-nowrap"
+              >
+                <span className="mr-2">📷</span> Join For More
+              </a>
+            </div>
+          </section>
         </div>
       </section>
 
@@ -264,76 +277,70 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-white text-rose-400 py-12">
-  <div className="container mx-auto px-4">
-    <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
-      {/* Left Column: Message */}
-      <div className="md:col-span-3 text-center md:text-left">
-        <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
-        <p className="mb-4">
-          With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives.
-          As we take our first steps together on the beautiful journey of marriage, your presence would mean the world to us.
-          Join us in celebrating not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
-        </p>
-      </div>
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
+            {/* Left Column: Message */}
+            <div className="md:col-span-3 text-center md:text-left">
+              <h3 className="text-2xl text-rose-600 font-bold mb-4">Mohit & Anushka</h3>
+              <p className="mb-4">
+                With love in our hearts and joy in our souls, we warmly invite you to be a part of a very special moment in our lives.
+                As we take our first steps together on the beautiful journey of marriage, your presence would mean the world to us.
+                Join us in celebrating not just a union of two people, but a bond of friendship, love, and shared dreams that will last a lifetime.
+              </p>
+            </div>
 
-      {/* Right Column: Contact */}
-      <div className="md:col-span-3 text-center md:text-right">
-        <h3 className="text-2xl font-bold mb-4 text-rose-600">Warm Regards</h3>
-        <p className="mb-2">
-          Devendra Singh :
-          <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-            9939799729
-          </a>
-        </p>
-        <p className="mb-2">
-          Rohit Singh :
-          <a href="tel:9650377118" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-            9650377118
-          </a>
-        </p>
-        <p className="mb-2">
-          Village: Chhota Badheya<br />
-          Post: Barauli – 81405<br />
-          District: Gopalganj
-        </p>
-      </div>
-    </div>
+            {/* Right Column: Contact */}
+            <div className="md:col-span-3 text-center md:text-right">
+              <h3 className="text-2xl font-bold mb-4 text-rose-600">Warm Regards</h3>
+              <p className="mb-2">
+                Devendra Singh :
+                <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
+                  9939799729
+                </a>
+              </p>
+              <p className="mb-2">
+                Village: Chhota Badheya<br />
+                Post: Barauli – 81405<br />
+                District: Gopalganj
+              </p>
+            </div>
+          </div>
 
-    {/* Footer Bottom */}
-    <div className="mt-12 text-center">
-      <p className="text-gray-400">&copy; 2025 Abhijit Kumar Singh. All rights reserved.</p>
-      <div className="flex justify-center space-x-4 mt-4">
-        <a
-          href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq"
-          className="cursor-pointer"
-          aria-label="Instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram text-2xl transition-transform duration-200 hover:scale-110"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/abhijit-kumar-b73512332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          className="cursor-pointer"
-          aria-label="LinkedIn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin text-blue-400 text-2xl transition-transform duration-200 hover:scale-110"></i>
-        </a>
-        <a
-          href="https://github.com/abhijitrajput103"
-          className="cursor-pointer"
-          aria-label="Github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github text-gray-800 text-2xl transition-transform duration-200 hover:scale-110"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
+          {/* Footer Bottom */}
+          <div className="mt-12 text-center">
+            <p className="text-gray-400">&copy; 2025 Abhijit Kumar Singh. All rights reserved.</p>
+            <div className="flex justify-center space-x-4 mt-4">
+              <a
+                href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq"
+                className="cursor-pointer"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram text-2xl transition-transform duration-200 hover:scale-110"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abhijit-kumar-b73512332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                className="cursor-pointer"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin text-blue-400 text-2xl transition-transform duration-200 hover:scale-110"></i>
+              </a>
+              <a
+                href="https://github.com/abhijitrajput103"
+                className="cursor-pointer"
+                aria-label="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github text-gray-800 text-2xl transition-transform duration-200 hover:scale-110"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
     </>
