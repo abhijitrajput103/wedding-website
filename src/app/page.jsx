@@ -289,22 +289,28 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Right Column: Contact */}
-            <div className="md:col-span-3 text-center md:text-right">
-              <h3 className="text-2xl font-bold mb-4 text-rose-600">Warm Regards</h3>
-              <p className="mb-2">
-                Devendra Singh :
-                <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
-                  9939799729
-                </a>
-              </p>
-              <p className="mb-2">
-                Village: Chhota Badheya<br />
-                Post: Barauli – 81405<br />
-                District: Gopalganj
-              </p>
-            </div>
-          </div>
+      {/* Right Column: Contact */}
+      <div className="md:col-span-3 text-center md:text-right">
+        <h3 className="text-2xl font-bold mb-4 text-rose-600">Warm Regards</h3>
+        <p className="mb-2">
+          Devendra Singh :
+          <a href="tel:9939799729" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
+            9939799729
+          </a>
+        </p>
+        <p className="mb-2">
+          Rohit Singh :
+          <a href="tel:9650377118" className="mx-1 text-rose-400 hover:text-blue-700 transition-colors cursor-pointer">
+            9650377118
+          </a>
+        </p>
+        <p className="mb-2">
+          Village: Chhota Badheya<br />
+          Post: Barauli – 81405<br />
+          District: Gopalganj
+        </p>
+      </div>
+    </div>
 
           {/* Footer Bottom */}
           <div className="mt-12 text-center">
